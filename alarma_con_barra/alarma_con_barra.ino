@@ -7,7 +7,7 @@
   Alumno: David Alfredo del Cid Rodríguez
   Fecha: 5/05/2023
   Carnet: 2022482
-  Proyecto: CONTADOR DE AFORO CON ANIMACION
+  Proyecto: alarma
 */
 // LCD
 #include <LiquidCrystal_I2C.h>
