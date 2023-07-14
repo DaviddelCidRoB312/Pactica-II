@@ -121,6 +121,17 @@ B00111000,
 B00111100,
 B01111111
 };
+byte number_8[8] = {
+
+B00000000,
+B00000000,
+B00000000,
+B00000000,
+B00000000,
+B00000000,
+B00000000,
+B00000000,
+};
 
 
 // Prototipos de funciones
@@ -166,6 +177,10 @@ void loop() {
     delay(1000);
             for (int i = 0; i < 8; i++) {
       matrix_unidades.setRow(0, i, number_7[i]);
+    }
+    delay(1000);
+                for (int i = 0; i < 8; i++) {
+      matrix_unidades.setRow(0, i, number_8[i]);
     }
     delay(1000);
 
